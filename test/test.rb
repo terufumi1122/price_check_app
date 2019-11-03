@@ -16,7 +16,7 @@ puts ""
 
 price_array = info.value.map{|h| h['$'].to_i}
 
-p price_array
+puts info.value.class
 
 price_max = price_array.max
 price_min = price_array.min
@@ -39,7 +39,5 @@ info.value.each do |n|
 
   puts "#{year}年#{month}月 #{":" * (graph_value + 1)}#{" " * (20 - graph_value)}#{price}円"
 end
-
-
 
 puts "以上です。"
