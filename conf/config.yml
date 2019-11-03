@@ -5,6 +5,6 @@ appId : '7d14345093ccf0f491bf3701b585a7cb4001564b'
 #統計表ID
 statsDataId : '0003105586'
 #銘柄(H27年基準)CD(5ケタ表記)
-cdCat01 : '04413'
+cdCat01 : '01023'
 #標準地域コード
-cdArea : '13100'
+cdArea : '20201'
